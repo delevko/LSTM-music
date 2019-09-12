@@ -16,7 +16,8 @@ tempo = 0.25
 rangelen = 250
 
 header = "nottingham/"
-weightsfile = header + "weights/" + "64-0.0880-0.9716.hdf5"
+weightsfile = sys.argv[1]
+# header + "weights/" + "64-0.0880-0.9716.hdf5"
 train_mapped_file = header + "train_mapped.txt"
 i_to_n_file = header + "int_to_note.txt"
 sample_file = header + "out3.mid"

@@ -19,9 +19,12 @@ https://towardsdatascience.com/setup-an-environment-for-machine-learning-and-dee
 <b>Linux:</b></br>
 https://www.tensorflow.org/install/gpu</br>
 https://www.tensorflow.org/install/pip</br>
-<b>Or</b></br>
+<b>OR</b></br>
 https://medium.com/better-programming/install-tensorflow-1-13-on-ubuntu-18-04-with-gpu-support-239b36d29070
 </p>
 
 <p></p>
-<p>Best book describing techniques and challenges in ML music generation (again IMHO): https://arxiv.org/abs/1709.01620</p>
+<p>Best books describing techniques and challenges in ML music generation (again IMHO):</br>
+http://people.idsia.ch/~juergen/blues/IDSIA-07-02.pdf</br>
+https://arxiv.org/abs/1709.01620
+</p>

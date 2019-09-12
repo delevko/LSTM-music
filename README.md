@@ -1,9 +1,21 @@
-<p>Tensorflow.Keras project for music generation using LSTM</p>
+<p>Tensorflow.Keras project for music generation using LSTM</br>
+My example works on Nottingham music dataset (MIDI format):</br>
+https://github.com/jukedeck/nottingham-dataset
+</p>
+
 <p>Link to the original idea: </br>https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5</p>
 
 <p>How to train your model:</br>
-//TODO
+Put your training dataset containing MIDI files in midi/nottingham/train/ folder</br>
+Same for validation dataset (midi/nottingham/test/)</br></br>
+
+<code>python3 train.py</code>
+Command above will start training of your model, all hyperparameters can be changed in the source code</br>
+Weights (.hdf5 format) are stored in nottingham/weigths/ folder only if improvements are reached
 </p>
+
+<p>After training(might take few hours) you can generate your music samples from the model by specifying your favorite weights file:
+<code>python3 generate.py &lt;weightsFile></code>
 
 <p>Requirements:</br>
 CUDA toolkit + compatible GPU</br>
